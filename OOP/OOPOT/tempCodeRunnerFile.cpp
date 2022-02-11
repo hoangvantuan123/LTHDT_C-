@@ -1,0 +1,1 @@
+ // cout<<"Thong tin da nhap la: ";<<nhansu.duara();

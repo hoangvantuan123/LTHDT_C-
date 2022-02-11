@@ -1,0 +1,31 @@
+//Chồng toán tử:
+Bài 36(lthdtbai36.cpp): Tính tổng n số phức. Yêu cầu dùng toán tử + để cộng hai số phức,
+dùng toán tử nhập >> nhập vào số phức, dùng toán tử xuất << để đưa ra số phức ở dạng a + bi,
+có thể khởi tạo giá trị ban đầu cho phần thực và phần ảo.
+
+Bài 37(lthdtbai37.cpp): Tạo lớp đối tượng xâu ký tự có các đặc điểm giống như xâu ký tự
+trong Pascal: Có thể khởi tạo đối tượng xâu bằng một hằng xâu; có thể gán hằng xâu hoặc
+đối tượng xâu cho đối tượng xâu; có thể dùng phép toán + để nối xâu; có thể dùng các
+phép toán so sánh để so sánh xâu; có thể dùng cin và cout để nhập vào và đưa ra đối tượng xâu.
+
+
+//Kế thừa:
+Bài 40(lthdtbai40.cpp): Một nhân sự nói chung có họ tên và ngày sinh. Nhân viên trong
+một công ty là một loại nhân sự nhưng có thêm mã nhân viên và hệ số lương. Lãnh đạo
+trong công ty là một loại nhân viên có thêm chức vụ. Nhập vào thông tin của một số nhân viên
+và lãnh đạo trong công ty. Đưa ra các thông tin đã nhập.
+
+Bài 41(lthdtbai41.cpp): Thời điểm là một loại ngày tháng và cũng là một loại thời gian
+nhưng có thêm địa điểm. Ngày tháng có ngày, tháng, năm. Thời gian có giờ và phút. Nhập vào một thời điểm,
+đưa ra địa điểm, ngày và thời gian của thời điểm đó ở dạng Địa điểm, ngày dd/mm/yy - h:mm.
+Ví dụ: Hà Nội, ngày 22/04/19 - 9:30.
+
+
+//Đa hình động:
+Bài 42(lthdtbai42.cpp): Tính diện tích và chu vi các hình: Hình chữ nhật biết 2 cạnh,
+hình tam giác biết 3 cạnh, hình tròn biết bán kính. Nhập vào một số hình trong đó
+có cả hình chữ nhật, hình tam giác và hình tròn. Đưa ra diện tích
+và chu vi các hình đã nhập. Y/c cài đặt đa hình động và lớp trừu tượng; viết 1 hàm
+lựa chọn hình, nhập kích thước cho hình và trả về hình đã nhập; viết 1 hàm đưa ra
+diện tích và chu vi của một hình truyền vào qua đối số.
+
