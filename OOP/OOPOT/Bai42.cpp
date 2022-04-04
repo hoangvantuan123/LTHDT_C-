@@ -169,7 +169,7 @@ hinh* nhapDL()
             h = new hinhCN;
     }
 
-    h->nhap(); 
+    h->nhap();
 
     return h;
 }

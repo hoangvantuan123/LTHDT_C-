@@ -1,5 +1,6 @@
 
-//Đề: Cài đặt cấu trúc dữ liệu ngăn xếp lưu trữ kế tiếp có phần tử là số nguyên. Ứng dụng ngăn xếp đã cài đặt cho bài toán chuyển đổi số nguyên hệ 10 sang hệ 2
+/* //Đề: Cài đặt cấu trúc dữ liệu ngăn xếp lưu trữ kế tiếp có phần tử là số nguyên.
+ Ứng dụng ngăn xếp đã cài đặt cho bài toán chuyển đổi số nguyên hệ 10 sang hệ 2 */
 
 #include<iostream>
 #include<stdio.h>

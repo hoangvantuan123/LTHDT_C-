@@ -1,7 +1,8 @@
 //Ho ten: Hoang Thi Hoa
 //Lop: K63TH
 //Msv: 637634
-//De: Ung dung ngan xep luu tru ke tiep de chuyen so nguyen duong he 10 sang he 2
+//De: Ung dung ngan xep luu tru ke tiep de chuyen so nguyen duong he 10
+// sang he 2
 
 #include<iostream>
 #include<stdio.h>
@@ -26,10 +27,10 @@ class Stack
 };
 //===Chuong trinh chinh===
 int main()
-{ 
+{
     Stack S;
     int n,thuong;
-    cout<<"Nhập số nguyên dương: "; 
+    cout<<"Nhập số nguyên dương: ";
     cin>>n;
     thuong=n;
     while(thuong)

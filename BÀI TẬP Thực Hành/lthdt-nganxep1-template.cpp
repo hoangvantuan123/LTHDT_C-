@@ -1,7 +1,8 @@
 //Ho ten:
 //MaSV:
 //Lop:
-//De: Tạo mẫu lớp ngăn xếp lưu trữ kế tiếp. Ứng dụng ngăn xếp để chuyển số nguyên dương hệ 10 sang hệ 2 và hệ 16. 
+/* //De: Tạo mẫu lớp ngăn xếp lưu trữ kế tiếp.
+ Ứng dụng ngăn xếp để chuyển số nguyên dương hệ 10 sang hệ 2 và hệ 16.  */
 
 #include<iostream>
 #include<stdio.h>
@@ -31,7 +32,7 @@ int main()
 
     //Tao doi tuong ngan xep S1 co kieu phan tu la so nguyen
     Stack<int> S1;
-    
+
     //Tao doi tuong ngan xep S2 co kieu phan tu la ky tu
     Stack<char> S2;
 
@@ -56,7 +57,7 @@ int main()
     while(thuong)
     {
 	du=thuong%16;
-	
+
 	if(du<10) S2.push(du+48); //chuyen so thanh chu so roi day vao ngan xep
 	else S2.push(du+55); //chuyen so thanh chu cai roi day vao ngan xep
 
@@ -65,7 +66,7 @@ int main()
 
     cout<<"\nSố hex của "<<n<<" là: ";;
     while(!S2.isEmpty()) cout<<S2.pop();
-    
+
     cout<<endl;
     return 0;
 }

@@ -1,5 +1,6 @@
 
-//DE: Bài 15(lthdtbai15a.cpp): Tính diện tích và chu vi hình tam giác có 3 cạnh a,b,c. Yc lam theo phuong phap lap trinh cau truc 3 canh a, b, c nhap tu ban phim
+/* DE: Bài 15(lthdtbai15a.cpp): Tính diện tích và chu vi hình tam giác có 3 cạnh a,b,c.
+Yc lam theo phuong phap lap trinh cau truc 3 canh a, b, c nhap tu ban phim */
 
 #include<iostream>
 #include<stdio.h>

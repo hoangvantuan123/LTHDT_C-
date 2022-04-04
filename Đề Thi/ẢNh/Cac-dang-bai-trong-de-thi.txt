@@ -1,0 +1,24 @@
+Đề thi LTHDT
+Bài 1 (5đ): Số phức, phân số, thời gian, điểm trong mặt phẳng,
+	ma trận, xâu ký tự, danh sách mặt hàng, kế thừa nhiều mức, kế thừa bội
+Bài 2 (5đ): Đa hình động, ngăn xếp lưu trữ kế tiếp, ngăn xếp lưu trữ phân tán,
+	hàng đợi lưu trữ kế tiếp, hàng đợi lưu trữ phân tán, DSLKD, DSLKK
+	
+*Các bước thực hiện lập trình hướng đối tượng
+(sau khi có thiết kế chương trình hướng đối tượng):
+B1(7đ): Tạo lớp => Khai báo lớp => Khai báo biến và khai báo, định nghĩa hàm thành viên
+B2(3đ): Sử dụng lớp => Tạo đối tượng từ lớp và tương tác với đối tượng
+
+Tạo lớp
+	- Khung lớp: 1đ
+	- Khai báo biến: 1đ
+	- Khai báo hàm trong lớp: 1đ
+	- Khung định nghĩa hàm ngoài lớp: 1đ
+	- Viết lệnh cho thân các định nghĩa hàm thành viên: 3đ
+Sử dụng lớp
+	- Tạo đối tượng của lớp: 1đ
+	- Tương tác với đối tượng: 2đ
+	
+*Thiết kế chương trình hướng đối tượng có 6 bước nhưng quy tụ lại cần trả lời
+	- Trong bài này đối tượng là gì, trong đối tượng có những biến nào, hàm nào.
+	Quan trọng nhất là xác định được đối tượng

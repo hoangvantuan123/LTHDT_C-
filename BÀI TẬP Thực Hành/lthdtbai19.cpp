@@ -1,6 +1,8 @@
 
-//DE: Bài 19(lthdtbai19.cpp): Cho điểm A(x1,y1) và điểm B(x2,y2). Tính khoảng cách AB.
-
+/* //DE: Bài 19(lthdtbai19.cpp): Cho điểm A(x1,y1) và
+ điểm B(x2,y2).
+Tính khoảng cách AB.
+ */
 
 #include<iostream>
 #include<stdio.h>

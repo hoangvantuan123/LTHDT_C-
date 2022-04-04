@@ -29,7 +29,7 @@ int main()
 
 
     //Tuong tac voi doi tuong
-    
+
 
     cout<<endl;
     return 0;
@@ -43,12 +43,10 @@ void phanSo::nhap()
 
 int phanSo::congPS()
 {
-    return a*b;
 }
 
 int phanSo::nhanPS()
 {
-    return (a+b)*2;
 }
 
 int phanSo::chiaPS()

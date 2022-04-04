@@ -34,12 +34,12 @@ int main()
 
     //Tinh tong 2 so phuc
     tong = p1 + p2;
-    
+
     //Dua ra
     cout<<"\nSo phuc p1: "<<p1; //Uoc gi cout<<p1
     cout<<"\nSo phuc p2: "<<p2;
     cout<<"\nTong cua so phuc p1 va p2 la: "<<tong;
-    
+
     cout<<endl;
     return 0;
 }
@@ -50,7 +50,7 @@ SoPhuc SoPhuc::operator+(SoPhuc &p2)
 
     tong.a = a + p2.a;
     tong.b = b + p2.b;
-    
+
     return tong;
 }
 
