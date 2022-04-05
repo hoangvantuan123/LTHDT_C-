@@ -1,6 +1,6 @@
 // Bài 40: Một nhân sự nói chung có họ tên và ngày sinh. Nhân viên trong
 // một công ty là một loại nhân sự nhưng có thêm mã nhân viên và hệ số lương. Lãnh đạo
-// trong công ty là một loại nhân viên có thêm chức vụ. 
+// trong công ty là một loại nhân viên có thêm chức vụ.
 // Nhập vào thông tin của một số nhân viên
 // và lãnh đạo trong công ty. Đưa ra các thông tin đã nhập.
 
@@ -10,12 +10,12 @@
 
 using namespace std;
 
-//Khai bao lop 
+//Khai bao lop
 class NhanSu
 {
-    private: 
-        char hoten[50];
-        string ngaysinh;
+    private:
+       char hoTen[31];
+       	char ngaySinh[11];
     public:
         void nhap();
         void duara();
@@ -46,7 +46,7 @@ int main()
 
     cout<<"Thong tin da nhap la: \n";
     ld.duara();
-    
+
     cout<<endl;
     return 0;
 }
@@ -54,15 +54,14 @@ int main()
 void NhanSu::nhap()
 {
     cout<<"Nhap ho ten: ";
-    cin.getline(hoten, 50, '\n');
-    cout<<"Nhap ngay sinh: ";
-    cin>>ngaysinh;
-    cin.ignore(INT_MAX, '\n');
+    scanf(" ");cin.get(hoTen,sizeof(hoTen));
+    cout<<"Nhap ngay sinh (dd/mm/yyyy): ";
+    cin>>ngaySinh;
 }
 void NhanSu::duara()
 {
-    cout<<"Ho ten: "<<hoten;
-    cout<<"\nNgay sinh: "<<ngaysinh;
+    cout<<"Ho ten: "<<hoTen;
+      cout<<"\nNgay sinh: "<<ngaySinh;
 }
 void NhanVien::nhap()
 {

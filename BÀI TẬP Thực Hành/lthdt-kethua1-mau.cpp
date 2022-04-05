@@ -43,7 +43,7 @@ int main()
     cout<<"\nDiện tích bề mặt của hình trụ là: "<<h.tinhDT();
     cout<<"\nThể tích của hình trụ là: "<<h.tinhTT();
 
-    cout<<endl;hin
+    cout<<endl;
     return 0;
 }
 //===dinh nghia ham===

@@ -23,14 +23,13 @@ class SList
         {
             int infor;
             node *link;
-        }*F;
-
+        } *F;
     public:
         SList();
         ~SList();
         void lastInsert(int x);
-        bool search(int x);
-        void show();
+        void show(); //display
+        bool search(int x); //find
         bool remove(int x);
 };
 
