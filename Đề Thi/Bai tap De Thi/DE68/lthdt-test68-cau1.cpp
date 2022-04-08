@@ -39,7 +39,7 @@ public:
 //=== chuong trinh chinh ===
 int main()
 {
-    SinhVien ds;
+
     // Tao doi tuong tep doc vao
     ifstream fin("diemmonhoc.txt");
 
@@ -49,6 +49,7 @@ int main()
         return 1;
     }
     // Khai bao
+    SinhVien ds;
     int n, i;
 
     // Doc tu tep

@@ -1,4 +1,9 @@
-
+/*
+    Một nhân sự nói chung có họ tên và ngày sinh . Trong một trường học , nhân viên là một loại nhân sự có thêm
+    mã nhân viên và hệ số lương . Cán bộ quản lý là một loiaj nhân viên nhưng có thêm chức vụ , giáo viên là một loại
+    Nhân viên nhưng có thêm môn giảng dạy . Nhập vào thông tin của n nhân sự trong đó có cả nhân viên , cán bộ quản lý và giáo viên . Đưa ra
+    màn hình thông tin của các nhân viên . cán bộ quản lý và giáo viên đã nhập .Yêu cầu cài đặt đa hình động cho hàm nhập và hàm đưa ra thông tin .
+ */
 #include<iostream>
 #include<stdio.h>
 
