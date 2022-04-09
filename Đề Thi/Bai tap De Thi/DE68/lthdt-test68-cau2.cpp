@@ -47,8 +47,8 @@ int main()
     //cout<<"\n\nDãy số trong DSLKK từ phải sang trái là:\n";
     //DL.display(0);
 
-    cout<<"\n\nSố phần tử trong DSLKK là: "<<DL.count();
-    //Tim va xoa phan tu bang x
+
+    //Tim phan tu bang x
     cout<<"\n\nNhập vào giá trị của x: ";
     cin>>x;
 
